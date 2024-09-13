@@ -17,6 +17,9 @@ importers:
       astro:
         specifier: workspace:*
         version: link:packages/astro/packages/astro
+      remark-directive:
+        specifier: ^3.0.0
+        version: 3.0.0
       sharp:
         specifier: ^0.32.5
         version: 0.32.6
@@ -5683,6 +5686,40 @@ importers:
       tsconfck:
         specifier: ^3.1.3
         version: 3.1.3(typescript@5.6.2)
+
+  packages/plugins/remark-symbol-directives:
+    dependencies:
+      hast-util-from-html:
+        specifier: ^2.0.2
+        version: 2.0.2
+      hastscript:
+        specifier: ^8.0.0
+        version: 8.0.0
+      remark-directive:
+        specifier: ^3.0.0
+        version: 3.0.0
+      unist-util-visit:
+        specifier: ^5.0.0
+        version: 5.0.0
+    devDependencies:
+      '@astrojs/starlight':
+        specifier: ^0.27.1
+        version: link:../../starlight/packages/starlight
+      '@types/hast':
+        specifier: ^3.0.4
+        version: 3.0.4
+      '@types/mdast':
+        specifier: ^4.0.4
+        version: 4.0.4
+      astro:
+        specifier: ^4.15.4
+        version: link:../../astro/packages/astro
+      mdast-util-directive:
+        specifier: ^3.0.0
+        version: 3.0.0
+      mdast-util-to-hast:
+        specifier: ^13.0.0
+        version: 13.2.0
 
   packages/starlight:
     devDependencies:

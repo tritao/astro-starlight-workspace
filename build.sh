@@ -7,3 +7,5 @@ cd $DIR/packages/astro
 pnpm install
 cd $DIR
 pnpm build-astro
+pnpm --filter remark-symbol-directives install
+

@@ -4,3 +4,9 @@
 [submodule "packages/starlight"]
 	path = packages/starlight
 	url = https://github.com/withastro/starlight.git
+[submodule "packages/remark-symbol-directives"]
+	path = packages/remark-symbol-directives
+	url = https://github.com/tritao/remark-symbol-directives.git
+[submodule "packages/plugins/remark-symbol-directives"]
+	path = packages/plugins/remark-symbol-directives
+	url = https://github.com/tritao/remark-symbol-directives.git

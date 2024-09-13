@@ -15,3 +15,5 @@ packages:
   - './packages/starlight/packages/**/*'
   - './packages/starlight/examples/**/*'
   - './packages/starlight/docs'
+# Plugins
+  - './packages/plugins/**/*'
