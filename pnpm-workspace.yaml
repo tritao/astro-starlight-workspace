@@ -1,0 +1,17 @@
+packages:
+  - './src/**'
+# Astro
+  - './packages/astro/'
+  - './packages/astro/packages/**/*'
+  - './packages/astro/examples/**/*'
+  - './packages/astro/smoke/**/*'
+  - './packages/astro/scripts'
+  - './packages/astro/benchmark'
+  - './packages/astro/benchmark/packages/*'
+  # Below excludes are only for Turbo because it doesn't respect gitignore like pnpm does
+  - '!./packages/astro/**/.vercel/**'
+# Starlight
+  - './packages/starlight/'
+  - './packages/starlight/packages/**/*'
+  - './packages/starlight/examples/**/*'
+  - './packages/starlight/docs'
