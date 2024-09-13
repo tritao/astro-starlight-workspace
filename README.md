@@ -1,5 +1,9 @@
 # Starlight Starter Kit: Basics
 
+This is Starlight starter kit modified to work with Astro and Starlight as Git submodules and via pnpm workspace packages.
+
+Just run `build.sh` to build the project and then use it as a regular Starlight app via the commands documented below.
+
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
 ```
