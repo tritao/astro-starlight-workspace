@@ -1,0 +1,6 @@
+[submodule "packages/astro"]
+	path = packages/astro
+	url = https://github.com/withastro/astro.git
+[submodule "packages/starlight"]
+	path = packages/starlight
+	url = https://github.com/withastro/starlight.git
